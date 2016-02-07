@@ -1,0 +1,32 @@
+body {
+    background-image: url("alphabet-block-background.gif");
+}
+#warning {
+    display: none;
+    color: red;
+    font-size: large;
+}
+.pic {
+    display: none;
+    width: 555px;
+}
+
+#title {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: lightyellow;
+    border: solid;
+    border-radius: 25%;
+}
+.finalScore {
+    display: none;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: lightyellow;
+    border: solid;
+    border-radius: 25%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spelling Test</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="spelling.css"/>
+
+</head>
+<body>
+<div class="container">
+    <div id="title">TEST YOUR SPELLING!!</div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3" id="enterWords">
+            <div class="enterWords" id="warning">Please enter at least one word.</div>
+            <textarea style="background-color: lightyellow; color: black; border: solid; font-weight: bold" id="hi" cols="30" rows="10" class="form-control enterWords" placeholder='Enter word list here, separated by ", "'></textarea>
+            <br/>
+            <button style="color: black; border: solid; font-weight: bold" class="btn btn-info enterWords" onclick="myWords()">Submit</button><br/>
+            <img src="thumbs_up_star_312288.jpg" id="correct" class="pic" style="border: solid"/>
+            <img src="thumb-down-smiley.png" id="wrong" class="pic" style="border: solid"/>
+            <img src="chuck.jpg" id="endChuck" class="pic" style="border: solid"/>
+            <img src="Chuck-1.jpg" id="endChuck2" class="pic" style="border: solid"/>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="finalScore"></div>
+</div>
+</body>
+<script src="spelling.js"></script>
+</html>
